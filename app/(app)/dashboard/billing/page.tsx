@@ -3,6 +3,8 @@ import { getSessionUser, getUserSubscription } from '@/lib/auth/session';
 import { BILLING_ENABLED } from '@/lib/billing/config';
 import BillingClient from './BillingClient';
 
+export const dynamic = 'force-dynamic';
+
 // =============================================================================
 // BILLING PAGE - Server Component
 // =============================================================================
